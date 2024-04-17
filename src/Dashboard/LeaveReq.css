@@ -1,0 +1,34 @@
+.LeaveTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leaveth, .leavetr, .leavetd {
+    border: 1px solid #dddddd;
+  }
+  
+  .leaveth {
+    background-color: #f2f2f2;
+  }
+  
+  .leavetr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .leavetr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .leaveth .from, .leaveth .to, .leaveth .total , .leaveth .reason{
+    width: 70px;
+  }
+  
+  .leaveth .message {
+    width: 200px;
+  }
+  
+  .leavetd {
+    padding: 8px;
+    text-align: left;
+  }
+  

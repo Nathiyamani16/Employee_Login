@@ -1,0 +1,10 @@
+.USer-profile {
+    display: flex; /* Ensures flex layout */
+    justify-content: space-between; /* Spaces children evenly */
+    align-items: center; /* Centers children vertically */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.407);
+    width: 500px; /* Or adjust based on your preference */
+}

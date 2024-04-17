@@ -1,0 +1,10 @@
+.login-page {
+    background-image: url('../Img/LoginBack.jpg'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

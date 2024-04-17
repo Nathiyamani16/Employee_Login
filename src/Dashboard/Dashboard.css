@@ -1,0 +1,15 @@
+.time-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.time-table th, .time-table td {
+  border: 3px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.time-table th {
+  background-color: #f2f2f2;
+}

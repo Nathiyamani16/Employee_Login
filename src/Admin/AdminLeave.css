@@ -1,0 +1,34 @@
+.AdminLeaveTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .AdminLeaveTHead, .AdminLeaveTR, .AdminLeaveTD {
+    border: 1px solid #dddddd;
+  }
+  
+  .AdminLeaveTHead {
+    background-color: #f2f2f2;
+  }
+  
+  .AdminLeaveTR:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .AdminLeaveTR:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .AdminLeaveTHead .name, .AdminLeaveTHead .email,.AdminLeaveTHead .statusmessage,  .AdminLeaveTHead .from , .AdminLeaveTHead .to, .AdminLeaveTHead .status, .AdminLeaveTHead .total{
+    width: 70px;
+  }
+  
+  .AdminLeaveTHead .reason {
+    width: 200px;
+  }
+  
+  .AdminLeaveTD {
+    padding: 8px;
+    text-align: left;
+  }
+  

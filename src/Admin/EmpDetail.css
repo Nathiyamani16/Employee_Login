@@ -1,0 +1,26 @@
+.timings-table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .timings-table th, .timings-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .timings-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .timings-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .timings-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+.EmployeeH1{
+  text-align: center;
+}

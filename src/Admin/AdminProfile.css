@@ -1,0 +1,30 @@
+/* Assuming .row is the parent container and should take full width */
+.row {
+    display: flex;
+    width: 100%;
+  }
+  
+  
+  .left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .left {
+    padding-right: 10px; /* Adjust or remove if unnecessary */
+  }
+  
+  .right {
+    padding-left: 10px; /* Adjust or remove if unnecessary */
+  }
+  
+  .images {
+    max-width: 250px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  }
+  
