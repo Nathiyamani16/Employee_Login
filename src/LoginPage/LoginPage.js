@@ -46,7 +46,7 @@ const LoginPage = () => {
   return (
     <div className="login-page">
       <LoginCard>
-        <h2>Login Page!</h2>
+        <h2>Login </h2>
         <input
           placeholder="Email ID"
           value={email}
